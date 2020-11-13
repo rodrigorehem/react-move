@@ -1,4 +1,4 @@
-import "./App.css";
+//import "./App.css";
 import React, { useState } from "react";
 const Contador = () => {
   const [contador, setContador] = useState(0);
@@ -24,7 +24,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <ul>
           {participantes.map((participante, idx) => {
             return <li key={idx}>{participante}</li>;
